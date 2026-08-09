@@ -1,12 +1,40 @@
-# React + Vite
+# Spy — игра «Шпион»
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Демо: [uliatumeneva161.github.io/spy](https://uliatumeneva161.github.io/spy/)
 
-Currently, two official plugins are available:
+Игра «Шпион» для компании: распределяет по игрокам роли (свои / шпион) и локацию. Локацию видят все, кроме шпиона — его цель остаться незамеченным.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Возможности
 
-## Expanding the ESLint configuration
+- Настройка количества игроков
+- Случайное распределение ролей
+- Скрытие локации от шпиона
+- Адаптивная вёрстка для мобильных устройств
+- Состояние игры — на хуках React
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Технологии
+
+- React
+- Vite
+- ESLint
+
+## Запуск
+
+```bash
+npm install
+npm run dev
+```
+
+Сборка:
+
+```bash
+npm run build
+```
+
+## Скриншот
+
+![Превью](preview.jpg)
+
+## CI/CD
+
+В репозитории настроен GitHub Actions: автоматическая сборка и деплой на GitHub Pages (`.github/workflows`).
